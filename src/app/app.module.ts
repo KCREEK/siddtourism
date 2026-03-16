@@ -13,6 +13,7 @@ import { AppContactComponent } from './components/app-contact/app-contact.compon
 import { AppFooterComponent } from './components/app-footer/app-footer.component';
 import { AppSlideComponent } from './components/app-slide/app-slide.component';
 import { AppArticlesComponent } from './components/app-articles/app-articles.component';
+import { HoverHighlightDirective } from './hover-highlight.directive';
 
 const appRoutes: Routes = [
   { path: 'home', component: AppHomeComponent },
@@ -30,7 +31,8 @@ const appRoutes: Routes = [
     AppContactComponent,
     AppFooterComponent,
     AppSlideComponent,
-    AppArticlesComponent
+    AppArticlesComponent,
+    HoverHighlightDirective
   ],
   imports: [
     BrowserModule,
